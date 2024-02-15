@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punta Bulata</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <div>
+                            <img src="img/logo4.jpeg" alt="">
+                        </div>
+                        <div
+                            style="text-transform: none; color:#f4a460; font-weight: bold; font-size: 24px; margin-left: 5px; margin-top: 7px; font-size: 20px; font-family:segoe;">
+                            <i></i>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="respon">
+
+                    <div>
+                        <ul>
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#history">History</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+
+                        </ul>
+                    </div>
+            </nav>
+
+            <section id="home">
+                <div class="slides slide1">
+                    <img src="img/puntabulata.jpg" alt="" height="100%" width="100%">
+                </div>
+            </section>
+
+        </header>
+
+
+
+        <section id="history">
+            <div class="slides slide2">
+
+                <div class="container">
+                    <div class="left">
+                        <img src="img/coral.jpg" width="400px" height="635px">
+                    </div>
+                    <div class="center">
+                        <h4>HISTORY OF PUNTA BULATA, CAUYAN, PHILIPPINES</h4> <br>
+                        <h5>Punta Bulata is intertwined with the rich cultural and natural heritage
+                            of Negros Occidental, Philippines. Initially, Punta Bulata was a secluded coastal area
+                            known only to locals for its pristine beaches and lush surroundings. Over time, as tourism
+                            began to
+                            flourish in the region, the area gained attention for its breathtaking beauty
+                            and tranquil ambiance. In the late 20th century, efforts were made to develop Punta Bulata
+                            into a premier beach resort destination, attracting visitors seeking an escape from the
+                            urban grind. Through thoughtful development and preservation of its natural environment,
+                            Punta Bulata has emerged as a haven for travelers looking to unwind amidst the splendor
+                            of nature. Today, it stands as a testament to sustainable tourism practices, offerig guests
+                            an
+                            opportunity to experience the timeless charm and beauty of the Philippines' coastal
+                            treasures.
+
+                            With each passing year, it stands as a shining example of how tourism can serve as a force
+                            for positive
+                            change, enhancing both the natural environment and the well-being of local communities. In
+                            the hearts of
+                            travelers and residents alike,
+                            Punta Bulata will forever hold a special place as a sanctuary where the timeless beauty of
+                            the
+                            Philippines'
+                            coastal treasure meets the warmth of Filipino hospitality.
+                        </h5>
+                    </div>
+                    <div class="right">
+                        <img src="img/corals.jpg" width="400px" height="635px">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="about">
+            <div class="slides slide3">
+                <div class="about">
+                    <div class="g-con">
+                        <div class="top img">
+                            <div class="img-con"><img src="img/house.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/beach.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/bench2.jpg" height="90%" width="95%" alt=""></div>
+                        </div>
+                        <div class="mid img">
+                            <div class="img-con"><img src="img/mansion.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/orange.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/fishes.jpg" height="90%" width="95%" alt=""></div>
+
+                        </div>
+                        <div class="bottom img">
+                            <div class="img-con"><img src="img/1.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/2.jpg" height="90%" width="95%" alt=""></div>
+                            <div class="img-con"><img src="img/coral.jpg" height="90%" width="95%" alt=""></div>
+
+                        </div>
+                        <div class="text">
+                            <h6> <b><i>Hidden 156 kilometers south of Bacolod City, Punta Bulata White Beach Resort and Spa
+                                    is a tropical
+                                    paradise in Cauayan, Negros Occidental.
+                                    Cauayan is the municipality just before Sipalay City, which is also very well known
+                                    for white
+                                    beaches.
+                                    Punta Bulata prides itself on its stretch
+                                    of creamy white sand, clear shallow water, a booming diverse marine life and a
+                                    magnificent view of
+                                    Sulu
+                                    Sea. The place also boasts of an infinity pool and spa.
+                                    The staff is also very friendly and helpful, a reflection of the people in Negros in
+                                    general.
+                                </b></i></h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="slides slide4">
+                <div class="text1">
+                    <h1>Punta Bulata White Beach Resort and Spa</h1></br>
+                    <h2>Contact Us!</h2> <br>
+                    <h2>Location: @Barangay Elihan, Cauayan, Negros Occidental, 6112, Philippines</h2>
+                    <h3>Email: @puntabulata.com</h3>
+                </div>
+    
+            </div>
+        </section>
+
+
+        <script>
+            window.addEventListener('scroll', function () {
+                var nav = document.querySelector('nav');
+                if (window.pageYOffset > 0) {
+                    nav.classList.add('black');
+                } else {
+                    nav.classList.remove('black');
+                }
+            });
+
+            let sections = document.querySelectorAll('section');
+            let navLinks = document.querySelectorAll('nav ul li a');
+
+            window.onscroll = () => {
+                sections.forEach(sec => {
+
+                    let top = window.scrollY;
+                    let offset = sec.offsetTop - 150;
+                    let height = sec.offsetHeight;
+                    let id = sec.getAttribute('id');
+
+                    if (top >= offset && top < offset + height) {
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            document.querySelector('nav ul li a[href*=' + id + ']').classList.add('active');
+                        });
+                    }
+                });
+            }
+
+            var content = document.getElementsByTagName('body')[0];
+            var darkMode = document.getElementById('dark-change');
+            darkMode.addEventListener('click', function () {
+                darkMode.classList.toggle('active');
+                content.classList.toggle('night');
+            })
+
+
+        </script>
+    </div>
+</body>
+
+</html>
